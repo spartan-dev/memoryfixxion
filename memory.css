@@ -1,0 +1,70 @@
+html {
+  background: url("./wall.jpg") no-repeat;
+  background-size: cover;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+#container {
+  position: relative;
+  background: #dddddd;
+  display: flex;
+  gap: 2em;
+  width: 210px;
+  flex-wrap: wrap;
+  width: 800px;
+  height: 540px;
+  padding: 70px;
+  margin: 0px auto;
+  border-radius: 84px;
+  box-shadow: inset 0px 0px 20px -6px rgba(97, 89, 97, 1);
+}
+.card {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+}
+
+.image {
+  background-image: url("https://www.vodafone.es/c/statics/imagen/img_resp_ancho_completo_Rick_y_Morty_T4_V2.jpg?v=20200522125012");
+  background-position: center;
+  background-size: cover;
+}
+
+.clear {
+  background-image: url("");
+}
+
+#score {
+  background-color: rgba(184, 215, 44, 0.623);
+  border-radius: 8px;
+  font-size: 30px;
+  font-family: Arial;
+  width: 200px;
+  padding: 20px;
+  padding-top: 0;
+  margin-left: 75%;
+}
+
+h1 {
+  color: rgba(40, 215, 119, 0.9);
+  font-weight: bolder;
+  font-size: 67px;
+  text-align: center;
+  text-shadow: 0px 0px 20px rgba(150, 150, 150, 1);
+}
+
+h2 {
+  color: #456783;
+  font-weight: bolder;
+  font-size: 35px;
+  text-align: center;
+  text-shadow: 0px 0px 20px rgba(150, 150, 150, 1);
+}
+
+p {
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+}
